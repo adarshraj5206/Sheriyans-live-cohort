@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+</head>
+<body>
+    <form method="post" action="#">
+        <label for="name">Name:</label>
+        <input id="name" name="name" type="text" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email" required>
+        <br><br>
+
+        <label for="phoneNumber">Ph No:</label>
+        <input id="phoneNumber" name="phone" type="tel" required pattern="[0-9]{10}" title="Enter a 10-digit phone number">
+        <br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
